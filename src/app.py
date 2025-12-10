@@ -279,9 +279,9 @@ class App(tk.Tk):
 
                 for r in self.last_results:
                     writer.writerow([
-                        f"{r['Q']:.3f}",
+                        f"{r['Q']:.2f}",
                         f"{r['CA_in']:.3f}",
-                        f"{r['CB']:.6f}",
+                        f"{r['CB']:.4f}",
                     ])
 
             messagebox.showinfo("Отчёт", f"Отчёт сохранён:\n{filename}")
