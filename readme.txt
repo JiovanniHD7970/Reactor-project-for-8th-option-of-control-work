@@ -14,4 +14,4 @@ src/
 
 Для запуска:
 release/
-  app.exe             — Открыть (логин admin, пароль admin)
+  app.exe             — Открыть
